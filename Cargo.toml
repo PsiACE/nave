@@ -3,7 +3,17 @@ name = "nave"
 version = "0.1.0"
 authors = ["Chojan Shang <psiace@outlook.com>"]
 edition = "2018"
+documentation = "https://docs.rs/nave"
+repository = "https://github.com/psiace/nave"
+homepage = "https://github.com/psiace/nave"
+description = "Thinking about the construction of distributed systems starting from the *consistent hash* algorithm."
+readme = "README.md"
+license = "MIT/Apache-2.0"
+
+keywords = ["consistent-hashing", "hash-ring", "nave"]
+categories = ["data-structures"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+twox-hash = "1.5.0"
