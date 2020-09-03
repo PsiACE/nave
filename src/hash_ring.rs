@@ -97,7 +97,7 @@ fn hash(t: &[u8]) -> u64 {
 mod test {
     use crate::HashRing;
 
-    #[derive(Debug, PartialEq, Clone)]
+    #[derive(Clone, Debug, PartialEq)]
     struct CustomNodeInfo {
         pub host: &'static str,
         pub port: u16,
